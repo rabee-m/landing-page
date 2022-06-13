@@ -12,7 +12,7 @@ body {
     align-items: center;
     flex: 1;
     background-color: #1F2937;
-    padding: 10px;
+    padding: 24px;
 }
 
 .logo {
@@ -32,7 +32,73 @@ body {
 
 .top-banner { 
     display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #1F2937;
+    flex: 1;
+    align-items: center;
 
 }
 
+.top-text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 24px;
+    width: 400px;
+    margin: 40px;
+    flex: 1;
+}
 
+.website-info {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.top-text {
+    color: #e5e7eb
+}
+.sign-up-button {
+    background-color: #3882F6;
+    width: 130px;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.gallery-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.image-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding : 40px;
+}
+
+.image-entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+.image-entry img {
+    height: 170px;
+    width: 170px;
+    border: 5px solid #3882F6;
+    border-radius: 18px;
+}
