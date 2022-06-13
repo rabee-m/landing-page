@@ -148,3 +148,13 @@ body {
     color: #e5e7eb;
     margin: 40px;
 }
+
+.footer {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: white
+}
