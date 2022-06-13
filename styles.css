@@ -113,3 +113,38 @@ body {
 .quote-author{
     text-align: right;
 }
+
+.alert-banner {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 20px;
+}
+
+.alert-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 40px;
+    color:#e5e7eb
+}
+.alert-text > * {
+    margin: 0;
+}
+
+.alert-button {
+    background-color: #3882F6;
+    width: 130px;
+    height: auto;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 40px;
+}
